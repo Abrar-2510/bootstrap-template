@@ -1,0 +1,100 @@
+:root {
+  --gray-color: #6c757d;
+  --orange-color: #f4623a;
+  --brown-color: #c34e2e;
+  --white-color: #fff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* nav */
+#mainNav .navbar-nav .nav-item .nav-link ,#mainNav .navbar-brand {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0 1rem;
+}
+  /*Apply styles after scroll*/
+  .scrolled {
+    background: #000;
+  }
+/* landing page */
+.landing {
+  min-height: calc(100vh - 72px);
+  font-size: 3.5rem;
+}
+.container hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #f4623a;
+  opacity: 1;
+}
+.container h1{
+  font-size: 3.5rem;
+}
+.container p{
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 1.15rem;
+}
+.main-btn {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+ 
+}
+.main-btn:hover {
+  color: var( --white-color);
+}
+/* abou */
+.page-section{
+  background-color: var(--orange-color);
+}
+hr.divider-light {
+  background-color: var(--white-color) !important;
+}
+.page-article i{
+background-color: var(--orange-color);
+}
+.page-article p{
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+ion-icon {
+  font-size: 3.5rem;
+color: var(--orange-color);
+}
+/* gallery */
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, 
+#portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
+ #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, 
+ #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, 
+ #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, 
+ #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+ #portfolio .container-sm .portfolio-box .portfolio-box-caption,
+  #portfolio .container-md .portfolio-box .portfolio-box-caption,
+   #portfolio .container-lg .portfolio-box .portfolio-box-caption,
+    #portfolio .container-xl .portfolio-box .portfolio-box-caption,
+     #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(244, 98, 58, 0.9);
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
+/* contact */
+ #contact{
+  background-color: var(--white-color);
+ }
+ .d-grid .btn{
+  background-color: var(--orange-color);
+ }
